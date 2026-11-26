@@ -12,7 +12,7 @@ dependencies:
   studio_core:
     git:
       url: https://github.com/taktemurr-ops/studio-core
-      ref: 4c60cae1c80dbec1f4bcd2a559ebf2dbddb8dd01
+      ref: 8cb935c63a86ca3e5fb38758edd5bb8ec44dccdd
   saglik_motoru:
     git:
       url: https://github.com/taktemurr-ops/saglik-motoru
