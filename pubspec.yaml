@@ -1,0 +1,24 @@
+name: uyg_uyku_sesi_kaydi
+description: "Uyku Sesi Kaydı – Sağlık ve Spor uygulaması (studio_core/apps + saglik_motoru)."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 4c60cae1c80dbec1f4bcd2a559ebf2dbddb8dd01
+  saglik_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/saglik-motoru
+      ref: main
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
